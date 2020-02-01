@@ -1,6 +1,5 @@
 # Sorting_algorithms
 
-
 def belong(n,t):
     i=0
     while i<len(t):
