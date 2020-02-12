@@ -40,7 +40,7 @@ def greatest_in(t):
             res=element
     return res
 
-def Testgreatestin():
+def Testgreatest_in():
     t=[1,2,3,6,10,238,572] 
     res=t[i]
     for element in t:
@@ -53,7 +53,7 @@ def my_len(t):
         cpt=cpt+1
     return cpt
 
-def Testmylen():
+def Testmy_len():
     t=[1,2,3,6,10,238,572] 
     cpt=0
     for element in t:
@@ -66,7 +66,7 @@ def map_double(t):
         res[i]=2*t[i]
     return res
 
-def Testmapdouble():
+def Testmap_double():
     t=[1,2,3,6,10,238,572] 
     res=[0]*len(t)
     for i in range (len(t)):
